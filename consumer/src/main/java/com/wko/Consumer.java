@@ -16,7 +16,7 @@ import com.wko.proxy.ProxyFactory;
 public class Consumer {
 
     public static void main(String[] args) {
-        //手动实现
+        //手动实现 请求发送
         Invocation invocation=new Invocation(HelloService.class.getName(),"sayHello",
                 new Class[]{String.class},new Object[]{"wko"});
 
